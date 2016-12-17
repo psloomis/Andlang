@@ -2,6 +2,9 @@ import networkx as nx
 import nltk
 from nltk import word_tokenize
 
+## An implementation of the TextRank algorithm, as described in 'TextRank: Bringing Order into Texts'
+## https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf
+
 COOCCURENCE_WINDOW = 3
 SYNTACTIC_FILTER = ["NN", "NNS", "NNP", "NNPS", "JJ", "JJR", "JJS"]
 
